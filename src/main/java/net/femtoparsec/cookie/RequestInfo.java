@@ -71,9 +71,8 @@ public class RequestInfo {
 
         final String path = uri.getPath();
         final String defaultPath = (path == null || path.isEmpty())?"/":path.toLowerCase();
-        final String hostName = host.startsWith("www.")?host.substring("www.".length()):host;
 
-        return new RequestInfo(hostName,http,secured, defaultPath);
+        return new RequestInfo(host,http,secured, defaultPath);
     }
 
 
