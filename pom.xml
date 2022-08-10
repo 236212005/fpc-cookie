@@ -30,7 +30,7 @@
 
     <groupId>net.femtoparsec.cookie</groupId>
     <artifactId>fpc-cookie</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2.r</version>
 
     <name>FPC Cookie</name>
     <description>RFC6265 Compliant Cookie Manager</description>
